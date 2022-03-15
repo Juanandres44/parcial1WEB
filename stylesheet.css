@@ -1,0 +1,51 @@
+
+
+.titulo{
+  width: 200px;
+  height: 62px;
+  top: 56px;
+  font-family: 'Rochester';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 62px;
+  /* identical to box height */
+  color: #000000;
+}
+.carro{
+  height: auto;
+  width: auto;
+  max-height: 70px;
+  max-width: 250px;
+  text-align: right;
+}
+
+#banner{
+  width: 1300px;
+  height: auto;
+}
+
+
+.btn-link{
+  text-decoration: none;
+  color:rgb(209, 205, 205);
+}
+
+
+.btn-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #000000;
+  color: rgb(209, 205, 205);
+}
+
+.subtitulo{
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+}
+
+p{
+  font-family: roboto;
+}

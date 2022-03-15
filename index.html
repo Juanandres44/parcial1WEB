@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+    <title>Restaurant & Lounge</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-light bg-white">
+        <a class="navbar-brand titulo" href="#">Restaurant & Lounge</a>
+        <ul class="navbar-nav ml-auto">
+            <a class="navbar-link" href="#">
+              <img src="carro.png" class="img-responsive carro" id="carro" />
+              <a class="navbar-brand" id="items"> 0 items </a>
+            </a>
+        </ul>
+      </nav>
+      <hr/>
+      <div class="text-center"><img src="banner.png" class="img-responsive center-block" alt="Banner" id="banner"></div>
+      <hr/>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="burgers"><button class="btn btn-link" type="button" data-toggle="collapse" data-target="#burger" aria-expanded="false" aria-controls="burger">
+              Burgers</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="tacos"><button class="btn btn-link" type="button" data-toggle="collapse" data-target="#burger" aria-expanded="false" aria-controls="burger">
+                Tacos</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="salads"><button class="btn btn-link" type="button" data-toggle="collapse" data-target="#burger" aria-expanded="false" aria-controls="burger">
+                Salads</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="desserts"><button class="btn btn-link" type="button" data-toggle="collapse" data-target="#burger" aria-expanded="false" aria-controls="burger">
+                Desserts</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="drinks"><button class="btn btn-link" type="button" data-toggle="collapse" data-target="#burger" aria-expanded="false" aria-controls="burger">
+                Drinks & Sides</button></a>
+            </li>
+          </ul>
+      </nav>
+      <hr/>
+      <div class="row" id="contenido"></div>
+<footer>
+  <p class="text-center totalCompra">
+    Contact us: +57 3102105253 - info@restaurant.com - @restaurant
+  </p>
+</footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

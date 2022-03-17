@@ -1,5 +1,3 @@
-
-
 .titulo{
   width: 200px;
   height: 62px;
@@ -9,20 +7,40 @@
   font-weight: 400;
   font-size: 48px;
   line-height: 62px;
-  /* identical to box height */
   color: #000000;
 }
-.carro{
+
+#carro{
   height: auto;
   width: auto;
   max-height: 70px;
   max-width: 250px;
   text-align: right;
+  position: relative;
+  left: 310px;
+}
+
+hr{
+  width:auto;
+}
+
+#items{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: small;
+
 }
 
 #banner{
-  width: 1300px;
+  width: auto;
   height: auto;
+}
+
+
+.navbar {
+  width: auto;
+  margin-top: 10px;
+  background-color: #333A40;
 }
 
 
@@ -34,18 +52,234 @@
 
 .btn-link:hover {
   text-decoration: underline;
-  text-decoration-color: #000000;
+  text-decoration-color: white;
+  font-weight: bolder;
   color: rgb(209, 205, 205);
+}
+
+#contenido{
+  font-family: 'Roboto', sans-serif;
 }
 
 .subtitulo{
   text-align: center;
+  font-weight:bolder;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
 
 h5{
   text-align: center;
+  font-weight: bold;
+}
+h6{
+  font-weight: bold;
 }
 
 p{
-  font-family: roboto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card{
+  position:relative;
+  left: 85px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.btn-warning{
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+  left: 60px;
+  background-color: #F2A950;
+  border-color: #F2A950;
+}
+
+
+.table-striped{
+  width:800px;
+  position: relative;
+  left: 25%;
+}
+
+
+td{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.plus {
+  background-color: #FDCD55;
+  border-color: #FDCD55;
+  font-weight: bold;
+
+}
+.neg {
+  position: relative;
+  left:10px;
+  width: 35px;
+  background-color: #FDCD55;
+  border-color: #FDCD55;
+  font-weight: bold;
+}
+
+footer{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: small;
+  position: relative;
+  right: 300px
+}
+
+
+
+.totalCompra{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  position: relative;
+  left:25%;
+}
+.botones{
+  position: relative;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.botonesCancelarCompra{
+  position: relative;
+  right: 80px;
+  background-color: #8C162C;
+  border-color: #000000;
+  border-radius: 0%;
+  color: white;
+}
+
+.botonesCompra{
+  background-color:#708C32;
+  position: relative;
+  right: 75px;
+  border-color: #000000;
+  border-radius: 0%;
+  color: white;
+}
+
+.modal-title{
+  font-family: 'Roboto', sans-serif;
+  font-size:xx-large;
+}
+
+.modal-body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+#cancelOrder{
+  background-color:#708C32;
+  border-color: #708C32;
+  border-radius: 0%;
+  color: white;
+}
+
+#noCancel{
+  background-color: #8C162C;
+  border-color: #8C162C;
+  border-radius: 0%;
+  color: white;
+}
+
+@media ( max-width: 640px ) {
+  #banner{ 
+    display: none;
+  }
+  #carro{
+    margin-right: 1000px;
+    position: relative;
+    bottom: 70px;
+    left: 280px;
+  }
+
+  #items{
+    margin-right: 1000px;
+    position: relative;
+    bottom: 110px;
+    left: 340px;
+  }
+
+  .titulo{
+    position: relative;
+    top:50px;
+    left:20px;
+  }
+
+  .mini {
+    background: #FDCD55 !important;
+  }
+
+
+  .mini #tituloProducto {
+    color:black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .btn-link{
+    text-decoration: none;
+    color:black;
+  }
+
+  .btn-link:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-weight: bolder;
+    color:black;
+  }
+
+
+  .mini .boton {
+    margin-right: 25px;
+  }
+
+  .table > :not(:first-child) {
+    border-top: none;
+  }
+
+  td{
+    position: relative;
+    right: 26%;
+    width: 80px;
+    height: 80px;
+  }
+
+  tbody{
+    border-color: white;
+  }
+
+  th{
+    display: none;
+  }
+
+  .botonesCancelarCompra{
+    position: relative;
+    top: 30px;
+    right: 80px;
+  }
+
+  .botonesCompra{
+    background-color:#708C32;
+    position: relative;
+    left: 10px;
+    bottom: 8px;
+  }
+
+  footer{
+    position: relative;
+    font-size:xx-small;
+    right: 100px;
+  }
+
 }
